@@ -8,6 +8,7 @@ Dashboard of most searched diets in Canada in 2020.
 
 
 ## Demo 
-![](https://github.com/aleivaar94/Tableau-Breakfast-Cereals/blob/master/Viz-whole-snapshot.png)
+![](https://github.com/aleivaar94/Tableau-Google-Search-Trends-2020/blob/master/Viz-whole-snapshot.png)
+
 
 <sup>You can download the Tableau dasboard by clicking on the file `Diet-Google-Trends-Region-2020.twbx` above</sup>
