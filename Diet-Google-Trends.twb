@@ -1,0 +1,2143 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20203.20.1208.1036                               -->
+<workbook original-version='18.1' source-build='2020.3.4 (20203.20.1208.1036)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <_.fcp.SetMembershipControl.true...SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Interest-by-subregion (Google-Trends-Diets-Canada-interest-over-time-2020-19)' inline='true' name='federated.0diyj2x0roxlhx1gjoz6l16fcxly' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Google-Trends-Diets-Canada-interest-over-time-2020-19' name='excel-direct.1x612pa10wwejj1c9sv0n18fsmnn'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/jorge/Desktop/Google-Trends-2020/Google-Trends-Diets-Canada-interest-over-time-2020-19.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1x612pa10wwejj1c9sv0n18fsmnn' name='Interest-by-subregion' table='[&apos;Interest-by-subregion$&apos;]' type='table'>
+          <columns gridOrigin='A1:K14:no:A1:K14:0' header='yes' outcome='2'>
+            <column datatype='string' name='Region' ordinal='0' />
+            <column datatype='integer' name='The Sirtfood diet 2020' ordinal='1' />
+            <column datatype='integer' name='GERD diet' ordinal='2' />
+            <column datatype='integer' name='The Candida diet' ordinal='3' />
+            <column datatype='integer' name='Keto diet' ordinal='4' />
+            <column datatype='integer' name='Plant-based diet' ordinal='5' />
+            <column datatype='integer' name='Anti-inflammatory diet' ordinal='6' />
+            <column datatype='integer' name='Fatty-liver diet' ordinal='7' />
+            <column datatype='integer' name='DASH diet' ordinal='8' />
+            <column datatype='integer' name='Alkaline diet' ordinal='9' />
+            <column datatype='integer' name='IBS diet' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1x612pa10wwejj1c9sv0n18fsmnn' name='Interest-by-subregion' table='[&apos;Interest-by-subregion$&apos;]' type='table'>
+          <columns gridOrigin='A1:K14:no:A1:K14:0' header='yes' outcome='2'>
+            <column datatype='string' name='Region' ordinal='0' />
+            <column datatype='integer' name='The Sirtfood diet 2020' ordinal='1' />
+            <column datatype='integer' name='GERD diet' ordinal='2' />
+            <column datatype='integer' name='The Candida diet' ordinal='3' />
+            <column datatype='integer' name='Keto diet' ordinal='4' />
+            <column datatype='integer' name='Plant-based diet' ordinal='5' />
+            <column datatype='integer' name='Anti-inflammatory diet' ordinal='6' />
+            <column datatype='integer' name='Fatty-liver diet' ordinal='7' />
+            <column datatype='integer' name='DASH diet' ordinal='8' />
+            <column datatype='integer' name='Alkaline diet' ordinal='9' />
+            <column datatype='integer' name='IBS diet' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Interest-by-subregion]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>1</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:K14:no:A1:K14:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Region]</local-name>
+            <parent-name>[Interest-by-subregion]</parent-name>
+            <remote-alias>Region</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Interest-by-subregion_47CAC8B6ED6741D199BE5BF265AC4C88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>The Sirtfood diet 2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[The Sirtfood diet 2020]</local-name>
+            <parent-name>[Interest-by-subregion]</parent-name>
+            <remote-alias>The Sirtfood diet 2020</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Interest-by-subregion_47CAC8B6ED6741D199BE5BF265AC4C88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GERD diet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GERD diet]</local-name>
+            <parent-name>[Interest-by-subregion]</parent-name>
+            <remote-alias>GERD diet</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Interest-by-subregion_47CAC8B6ED6741D199BE5BF265AC4C88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>The Candida diet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[The Candida diet]</local-name>
+            <parent-name>[Interest-by-subregion]</parent-name>
+            <remote-alias>The Candida diet</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Interest-by-subregion_47CAC8B6ED6741D199BE5BF265AC4C88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Keto diet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Keto diet]</local-name>
+            <parent-name>[Interest-by-subregion]</parent-name>
+            <remote-alias>Keto diet</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Interest-by-subregion_47CAC8B6ED6741D199BE5BF265AC4C88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Plant-based diet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Plant-based diet]</local-name>
+            <parent-name>[Interest-by-subregion]</parent-name>
+            <remote-alias>Plant-based diet</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Interest-by-subregion_47CAC8B6ED6741D199BE5BF265AC4C88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Anti-inflammatory diet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Anti-inflammatory diet]</local-name>
+            <parent-name>[Interest-by-subregion]</parent-name>
+            <remote-alias>Anti-inflammatory diet</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Interest-by-subregion_47CAC8B6ED6741D199BE5BF265AC4C88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fatty-liver diet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fatty-liver diet]</local-name>
+            <parent-name>[Interest-by-subregion]</parent-name>
+            <remote-alias>Fatty-liver diet</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Interest-by-subregion_47CAC8B6ED6741D199BE5BF265AC4C88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DASH diet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DASH diet]</local-name>
+            <parent-name>[Interest-by-subregion]</parent-name>
+            <remote-alias>DASH diet</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Interest-by-subregion_47CAC8B6ED6741D199BE5BF265AC4C88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Alkaline diet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Alkaline diet]</local-name>
+            <parent-name>[Interest-by-subregion]</parent-name>
+            <remote-alias>Alkaline diet</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Interest-by-subregion_47CAC8B6ED6741D199BE5BF265AC4C88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IBS diet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[IBS diet]</local-name>
+            <parent-name>[Interest-by-subregion]</parent-name>
+            <remote-alias>IBS diet</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Interest-by-subregion_47CAC8B6ED6741D199BE5BF265AC4C88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Region]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Interest-by-subregion' datatype='table' name='[__tableau_internal_object_id__].[Interest-by-subregion_47CAC8B6ED6741D199BE5BF265AC4C88]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Interest-by-subregion' id='Interest-by-subregion_47CAC8B6ED6741D199BE5BF265AC4C88'>
+            <properties context=''>
+              <relation connection='excel-direct.1x612pa10wwejj1c9sv0n18fsmnn' name='Interest-by-subregion' table='[&apos;Interest-by-subregion$&apos;]' type='table'>
+                <columns gridOrigin='A1:K14:no:A1:K14:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Region' ordinal='0' />
+                  <column datatype='integer' name='The Sirtfood diet 2020' ordinal='1' />
+                  <column datatype='integer' name='GERD diet' ordinal='2' />
+                  <column datatype='integer' name='The Candida diet' ordinal='3' />
+                  <column datatype='integer' name='Keto diet' ordinal='4' />
+                  <column datatype='integer' name='Plant-based diet' ordinal='5' />
+                  <column datatype='integer' name='Anti-inflammatory diet' ordinal='6' />
+                  <column datatype='integer' name='Fatty-liver diet' ordinal='7' />
+                  <column datatype='integer' name='DASH diet' ordinal='8' />
+                  <column datatype='integer' name='Alkaline diet' ordinal='9' />
+                  <column datatype='integer' name='IBS diet' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Google-Trends-Diets-Canada-interest-over-time-2020' inline='true' name='federated.0ltdy1c0fjm1vf1bopefb1ou5zee' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Google-Trends-Diets-Canada-interest-over-time-2020' name='textscan.0go2aud1raapjd1h7h85j1ygj7cz'>
+            <connection class='textscan' directory='C:/Users/jorge/Desktop/Google-Trends-2020' filename='Google-Trends-Diets-Canada-interest-over-time-2020.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0go2aud1raapjd1h7h85j1ygj7cz' name='Google-Trends-Diets-Canada-interest-over-time-2020.csv' table='[Google-Trends-Diets-Canada-interest-over-time-2020#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='date' name='Week' ordinal='0' />
+            <column datatype='string' date-parse-format='yyyy' name='Year' ordinal='1' />
+            <column datatype='integer' name='The Sirtfood diet' ordinal='2' />
+            <column datatype='integer' name='GERD diet' ordinal='3' />
+            <column datatype='integer' name='The Candida diet' ordinal='4' />
+            <column datatype='integer' name='Keto diet' ordinal='5' />
+            <column datatype='integer' name='Plant-based diet' ordinal='6' />
+            <column datatype='integer' name='Anti-inflammatory diet' ordinal='7' />
+            <column datatype='integer' name='Fatty-liver diet' ordinal='8' />
+            <column datatype='integer' name='DASH diet' ordinal='9' />
+            <column datatype='integer' name='Alkaline diet' ordinal='10' />
+            <column datatype='integer' name='IBS diet' ordinal='11' />
+            <column datatype='string' name='Diets' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0go2aud1raapjd1h7h85j1ygj7cz' name='Google-Trends-Diets-Canada-interest-over-time-2020.csv' table='[Google-Trends-Diets-Canada-interest-over-time-2020#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='date' name='Week' ordinal='0' />
+            <column datatype='string' date-parse-format='yyyy' name='Year' ordinal='1' />
+            <column datatype='integer' name='The Sirtfood diet' ordinal='2' />
+            <column datatype='integer' name='GERD diet' ordinal='3' />
+            <column datatype='integer' name='The Candida diet' ordinal='4' />
+            <column datatype='integer' name='Keto diet' ordinal='5' />
+            <column datatype='integer' name='Plant-based diet' ordinal='6' />
+            <column datatype='integer' name='Anti-inflammatory diet' ordinal='7' />
+            <column datatype='integer' name='Fatty-liver diet' ordinal='8' />
+            <column datatype='integer' name='DASH diet' ordinal='9' />
+            <column datatype='integer' name='Alkaline diet' ordinal='10' />
+            <column datatype='integer' name='IBS diet' ordinal='11' />
+            <column datatype='string' name='Diets' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Google-Trends-Diets-Canada-interest-over-time-2020.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Week</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Week]</local-name>
+            <parent-name>[Google-Trends-Diets-Canada-interest-over-time-2020.csv]</parent-name>
+            <remote-alias>Week</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Google-Trends-Diets-Canada-interest-over-time-2020.csv_7084108240574D1C9047FA7C174277E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Google-Trends-Diets-Canada-interest-over-time-2020.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Google-Trends-Diets-Canada-interest-over-time-2020.csv_7084108240574D1C9047FA7C174277E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>The Sirtfood diet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[The Sirtfood diet]</local-name>
+            <parent-name>[Google-Trends-Diets-Canada-interest-over-time-2020.csv]</parent-name>
+            <remote-alias>The Sirtfood diet</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Google-Trends-Diets-Canada-interest-over-time-2020.csv_7084108240574D1C9047FA7C174277E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GERD diet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GERD diet]</local-name>
+            <parent-name>[Google-Trends-Diets-Canada-interest-over-time-2020.csv]</parent-name>
+            <remote-alias>GERD diet</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Google-Trends-Diets-Canada-interest-over-time-2020.csv_7084108240574D1C9047FA7C174277E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>The Candida diet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[The Candida diet]</local-name>
+            <parent-name>[Google-Trends-Diets-Canada-interest-over-time-2020.csv]</parent-name>
+            <remote-alias>The Candida diet</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Google-Trends-Diets-Canada-interest-over-time-2020.csv_7084108240574D1C9047FA7C174277E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Keto diet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Keto diet]</local-name>
+            <parent-name>[Google-Trends-Diets-Canada-interest-over-time-2020.csv]</parent-name>
+            <remote-alias>Keto diet</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Google-Trends-Diets-Canada-interest-over-time-2020.csv_7084108240574D1C9047FA7C174277E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Plant-based diet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Plant-based diet]</local-name>
+            <parent-name>[Google-Trends-Diets-Canada-interest-over-time-2020.csv]</parent-name>
+            <remote-alias>Plant-based diet</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Google-Trends-Diets-Canada-interest-over-time-2020.csv_7084108240574D1C9047FA7C174277E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Anti-inflammatory diet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Anti-inflammatory diet]</local-name>
+            <parent-name>[Google-Trends-Diets-Canada-interest-over-time-2020.csv]</parent-name>
+            <remote-alias>Anti-inflammatory diet</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Google-Trends-Diets-Canada-interest-over-time-2020.csv_7084108240574D1C9047FA7C174277E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fatty-liver diet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fatty-liver diet]</local-name>
+            <parent-name>[Google-Trends-Diets-Canada-interest-over-time-2020.csv]</parent-name>
+            <remote-alias>Fatty-liver diet</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Google-Trends-Diets-Canada-interest-over-time-2020.csv_7084108240574D1C9047FA7C174277E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DASH diet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DASH diet]</local-name>
+            <parent-name>[Google-Trends-Diets-Canada-interest-over-time-2020.csv]</parent-name>
+            <remote-alias>DASH diet</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Google-Trends-Diets-Canada-interest-over-time-2020.csv_7084108240574D1C9047FA7C174277E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Alkaline diet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Alkaline diet]</local-name>
+            <parent-name>[Google-Trends-Diets-Canada-interest-over-time-2020.csv]</parent-name>
+            <remote-alias>Alkaline diet</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Google-Trends-Diets-Canada-interest-over-time-2020.csv_7084108240574D1C9047FA7C174277E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IBS diet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[IBS diet]</local-name>
+            <parent-name>[Google-Trends-Diets-Canada-interest-over-time-2020.csv]</parent-name>
+            <remote-alias>IBS diet</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Google-Trends-Diets-Canada-interest-over-time-2020.csv_7084108240574D1C9047FA7C174277E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Diets</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Diets]</local-name>
+            <parent-name>[Google-Trends-Diets-Canada-interest-over-time-2020.csv]</parent-name>
+            <remote-alias>Diets</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Google-Trends-Diets-Canada-interest-over-time-2020.csv_7084108240574D1C9047FA7C174277E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Year]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Google-Trends-Diets-Canada-interest-over-time-2020.csv' datatype='table' name='[__tableau_internal_object_id__].[Google-Trends-Diets-Canada-interest-over-time-2020.csv_7084108240574D1C9047FA7C174277E6]' role='measure' type='quantitative' />
+      <column-instance column='[Year]' derivation='None' name='[none:Year:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#00557f'>
+              <bucket>&quot;[federated.0ltdy1c0fjm1vf1bopefb1ou5zee]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Year:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;2020&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;2019&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Google-Trends-Diets-Canada-interest-over-time-2020.csv' id='Google-Trends-Diets-Canada-interest-over-time-2020.csv_7084108240574D1C9047FA7C174277E6'>
+            <properties context=''>
+              <relation connection='textscan.0go2aud1raapjd1h7h85j1ygj7cz' name='Google-Trends-Diets-Canada-interest-over-time-2020.csv' table='[Google-Trends-Diets-Canada-interest-over-time-2020#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='date' name='Week' ordinal='0' />
+                  <column datatype='string' date-parse-format='yyyy' name='Year' ordinal='1' />
+                  <column datatype='integer' name='The Sirtfood diet' ordinal='2' />
+                  <column datatype='integer' name='GERD diet' ordinal='3' />
+                  <column datatype='integer' name='The Candida diet' ordinal='4' />
+                  <column datatype='integer' name='Keto diet' ordinal='5' />
+                  <column datatype='integer' name='Plant-based diet' ordinal='6' />
+                  <column datatype='integer' name='Anti-inflammatory diet' ordinal='7' />
+                  <column datatype='integer' name='Fatty-liver diet' ordinal='8' />
+                  <column datatype='integer' name='DASH diet' ordinal='9' />
+                  <column datatype='integer' name='Alkaline diet' ordinal='10' />
+                  <column datatype='integer' name='IBS diet' ordinal='11' />
+                  <column datatype='string' name='Diets' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Interest-by-subregion (Google-Trends-Diets-Canada-interest-over-time-2020-19) (2)' inline='true' name='federated.0diyj2x0roxlhx1gjoz6l16fcxly (copy)' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Google-Trends-Diets-Canada-interest-over-time-2020-19' name='excel-direct.1x612pa10wwejj1c9sv0n18fsmnn (copy)'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/jorge/Desktop/Google-Trends-2020/Google-Trends-Diets-Canada-interest-over-time-2020-19.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1x612pa10wwejj1c9sv0n18fsmnn (copy)' name='Interest-by-subregion' table='[&apos;Interest-by-subregion$&apos;]' type='table'>
+          <columns gridOrigin='A1:L14:no:A1:L14:0' header='yes' outcome='6'>
+            <column datatype='string' name='Region' ordinal='0' />
+            <column datatype='integer' name='The Sirtfood diet 2020' ordinal='1' />
+            <column datatype='integer' name='GERD diet' ordinal='2' />
+            <column datatype='integer' name='The Candida diet' ordinal='3' />
+            <column datatype='integer' name='Keto diet' ordinal='4' />
+            <column datatype='integer' name='Plant-based diet' ordinal='5' />
+            <column datatype='integer' name='Anti-inflammatory diet' ordinal='6' />
+            <column datatype='integer' name='Fatty-liver diet' ordinal='7' />
+            <column datatype='integer' name='DASH diet' ordinal='8' />
+            <column datatype='integer' name='Alkaline diet' ordinal='9' />
+            <column datatype='integer' name='IBS diet' ordinal='10' />
+            <column datatype='integer' name='Count' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1x612pa10wwejj1c9sv0n18fsmnn (copy)' name='Interest-by-subregion' table='[&apos;Interest-by-subregion$&apos;]' type='table'>
+          <columns gridOrigin='A1:L14:no:A1:L14:0' header='yes' outcome='6'>
+            <column datatype='string' name='Region' ordinal='0' />
+            <column datatype='integer' name='The Sirtfood diet 2020' ordinal='1' />
+            <column datatype='integer' name='GERD diet' ordinal='2' />
+            <column datatype='integer' name='The Candida diet' ordinal='3' />
+            <column datatype='integer' name='Keto diet' ordinal='4' />
+            <column datatype='integer' name='Plant-based diet' ordinal='5' />
+            <column datatype='integer' name='Anti-inflammatory diet' ordinal='6' />
+            <column datatype='integer' name='Fatty-liver diet' ordinal='7' />
+            <column datatype='integer' name='DASH diet' ordinal='8' />
+            <column datatype='integer' name='Alkaline diet' ordinal='9' />
+            <column datatype='integer' name='IBS diet' ordinal='10' />
+            <column datatype='integer' name='Count' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Interest-by-subregion]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>3</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:K14:no:A1:K14:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Region]</local-name>
+            <parent-name>[Interest-by-subregion]</parent-name>
+            <remote-alias>Region</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Interest-by-subregion_47CAC8B6ED6741D199BE5BF265AC4C88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>The Sirtfood diet 2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[The Sirtfood diet 2020]</local-name>
+            <parent-name>[Interest-by-subregion]</parent-name>
+            <remote-alias>The Sirtfood diet 2020</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Interest-by-subregion_47CAC8B6ED6741D199BE5BF265AC4C88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GERD diet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GERD diet]</local-name>
+            <parent-name>[Interest-by-subregion]</parent-name>
+            <remote-alias>GERD diet</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Interest-by-subregion_47CAC8B6ED6741D199BE5BF265AC4C88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>The Candida diet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[The Candida diet]</local-name>
+            <parent-name>[Interest-by-subregion]</parent-name>
+            <remote-alias>The Candida diet</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Interest-by-subregion_47CAC8B6ED6741D199BE5BF265AC4C88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Keto diet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Keto diet]</local-name>
+            <parent-name>[Interest-by-subregion]</parent-name>
+            <remote-alias>Keto diet</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Interest-by-subregion_47CAC8B6ED6741D199BE5BF265AC4C88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Plant-based diet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Plant-based diet]</local-name>
+            <parent-name>[Interest-by-subregion]</parent-name>
+            <remote-alias>Plant-based diet</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Interest-by-subregion_47CAC8B6ED6741D199BE5BF265AC4C88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Anti-inflammatory diet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Anti-inflammatory diet]</local-name>
+            <parent-name>[Interest-by-subregion]</parent-name>
+            <remote-alias>Anti-inflammatory diet</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Interest-by-subregion_47CAC8B6ED6741D199BE5BF265AC4C88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fatty-liver diet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fatty-liver diet]</local-name>
+            <parent-name>[Interest-by-subregion]</parent-name>
+            <remote-alias>Fatty-liver diet</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Interest-by-subregion_47CAC8B6ED6741D199BE5BF265AC4C88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DASH diet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DASH diet]</local-name>
+            <parent-name>[Interest-by-subregion]</parent-name>
+            <remote-alias>DASH diet</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Interest-by-subregion_47CAC8B6ED6741D199BE5BF265AC4C88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Alkaline diet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Alkaline diet]</local-name>
+            <parent-name>[Interest-by-subregion]</parent-name>
+            <remote-alias>Alkaline diet</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Interest-by-subregion_47CAC8B6ED6741D199BE5BF265AC4C88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IBS diet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[IBS diet]</local-name>
+            <parent-name>[Interest-by-subregion]</parent-name>
+            <remote-alias>IBS diet</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Interest-by-subregion_47CAC8B6ED6741D199BE5BF265AC4C88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='CountD' datatype='string' name='[Region]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Interest-by-subregion' datatype='table' name='[__tableau_internal_object_id__].[Interest-by-subregion_47CAC8B6ED6741D199BE5BF265AC4C88]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Interest-by-subregion' id='Interest-by-subregion_47CAC8B6ED6741D199BE5BF265AC4C88'>
+            <properties context=''>
+              <relation connection='excel-direct.1x612pa10wwejj1c9sv0n18fsmnn (copy)' name='Interest-by-subregion' table='[&apos;Interest-by-subregion$&apos;]' type='table'>
+                <columns gridOrigin='A1:L14:no:A1:L14:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Region' ordinal='0' />
+                  <column datatype='integer' name='The Sirtfood diet 2020' ordinal='1' />
+                  <column datatype='integer' name='GERD diet' ordinal='2' />
+                  <column datatype='integer' name='The Candida diet' ordinal='3' />
+                  <column datatype='integer' name='Keto diet' ordinal='4' />
+                  <column datatype='integer' name='Plant-based diet' ordinal='5' />
+                  <column datatype='integer' name='Anti-inflammatory diet' ordinal='6' />
+                  <column datatype='integer' name='Fatty-liver diet' ordinal='7' />
+                  <column datatype='integer' name='DASH diet' ordinal='8' />
+                  <column datatype='integer' name='Alkaline diet' ordinal='9' />
+                  <column datatype='integer' name='IBS diet' ordinal='10' />
+                  <column datatype='integer' name='Count' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Highlight1' name='[Action1]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Interest-over-time' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='The Sirtfood diet' />
+        <param name='target' value='Interest-over-time' />
+      </command>
+    </action>
+    <action caption='Highlight2' name='[Action2]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Sheet 2' />
+      <command command='tsc:brush'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Interest-over-time'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Google-Trends-Diets-Canada-interest-over-time-2020' name='federated.0ltdy1c0fjm1vf1bopefb1ou5zee' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ltdy1c0fjm1vf1bopefb1ou5zee'>
+            <column datatype='integer' name='[Alkaline diet]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Anti-inflammatory diet]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[DASH diet]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Fatty-liver diet]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[IBS diet]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Keto diet]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Plant-based diet]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[The Candida diet]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[The Sirtfood diet]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Week]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Year]' role='dimension' type='nominal' />
+            <column-instance column='[Alkaline diet]' derivation='None' name='[none:Alkaline diet:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Anti-inflammatory diet]' derivation='None' name='[none:Anti-inflammatory diet:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DASH diet]' derivation='None' name='[none:DASH diet:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Fatty-liver diet]' derivation='None' name='[none:Fatty-liver diet:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[IBS diet]' derivation='None' name='[none:IBS diet:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Keto diet]' derivation='None' name='[none:Keto diet:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Plant-based diet]' derivation='None' name='[none:Plant-based diet:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[The Candida diet]' derivation='None' name='[none:The Candida diet:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[The Sirtfood diet]' derivation='None' name='[none:The Sirtfood diet:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Week]' derivation='Week-Trunc' name='[twk:Week:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Year:nk]'>
+            <groupfilter function='member' level='[none:Year:nk]' member='&quot;2020&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Year:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:The Candida diet:qk]' field-type='quantitative' max='105' min='0' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[twk:Week:qk]' field-type='quantitative' major-origin='#2020-01-05 00:00:00#' major-spacing='1.0' major-units='months' max='#2020-12-29 20:24:00#' min='#2020-01-04 00:00:00#' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='1' field='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[twk:Week:qk]' field-type='quantitative' fold='true' major-origin='#2020-01-05 00:00:00#' major-spacing='1.0' major-units='months' max='#2020-12-29 20:24:00#' min='#2020-01-04 00:00:00#' range-type='fixed' scope='cols' synchronized='true' type='space' />
+            <format attr='title' class='1' field='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[twk:Week:qk]' scope='cols' value='' />
+            <format attr='title' class='0' field='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[twk:Week:qk]' scope='cols' value='' />
+            <format attr='width' field='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:The Candida diet:qk]' value='128' />
+            <format attr='width' field='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Plant-based diet:qk]' value='128' />
+            <format attr='width' field='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Anti-inflammatory diet:qk]' value='128' />
+            <format attr='width' field='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Fatty-liver diet:qk]' value='128' />
+            <format attr='width' field='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:DASH diet:qk]' value='128' />
+            <format attr='width' field='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Alkaline diet:qk]' value='128' />
+            <format attr='width' field='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:IBS diet:qk]' value='128' />
+            <format attr='display' class='0' field='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:The Candida diet:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Plant-based diet:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Anti-inflammatory diet:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Fatty-liver diet:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:DASH diet:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Alkaline diet:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:IBS diet:qk]' scope='rows' value='false' />
+            <format attr='width' field='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Keto diet:qk]' value='128' />
+            <format attr='display' class='0' field='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Keto diet:qk]' scope='rows' value='false' />
+            <encoding attr='space' class='0' field='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Keto diet:qk]' field-type='quantitative' max='105' min='0' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:DASH diet:qk]' field-type='quantitative' max='105' min='0' range-type='fixed' scope='rows' type='space' />
+            <format attr='width' field='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:The Sirtfood diet:qk]' value='128' />
+            <format attr='display' class='0' field='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:The Sirtfood diet:qk]' scope='rows' value='false' />
+            <encoding attr='space' class='0' field='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:The Sirtfood diet:qk]' field-type='quantitative' max='105' min='0' range-type='fixed' scope='rows' type='space' />
+            <format attr='tick-color' scope='cols' value='#000000' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='text-orientation' data-class='subtotal' scope='cols' value='0' />
+            <format attr='text-align' data-class='subtotal' scope='cols' value='center' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-weight' scope='rows' value='bold' />
+            <format attr='font-size' field='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[twk:Week:qk]' value='12' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+            <format attr='background-color' id='refline0' value='#ddebf0fc' />
+            <format attr='wrap' id='refline0' value='off' />
+            <format attr='vertical-align' id='refline0' value='bottom' />
+            <format attr='text-align' id='refline0' value='right' />
+            <format attr='text-orientation' id='refline0' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Year:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>GERD diet:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:GERD diet:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Year:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Year:nk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-transparency' value='119' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='1389' />
+                <format attr='maxwidth' value='1389' />
+                <format attr='minheight' value='100' />
+                <format attr='maxheight' value='100' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:The Candida diet:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Year:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Search Interest:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:The Candida diet:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Year:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Year:nk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-transparency' value='121' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='1389' />
+                <format attr='maxwidth' value='1389' />
+                <format attr='minheight' value='100' />
+                <format attr='maxheight' value='100' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Keto diet:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Year:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Keto diet:&#9;</run>
+                <run bold='true' fontcolor='#ff0000'><![CDATA[<[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Keto diet:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Year:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Year:nk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-transparency' value='119' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='1389' />
+                <format attr='maxwidth' value='1389' />
+                <format attr='minheight' value='100' />
+                <format attr='maxheight' value='100' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Plant-based diet:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Year:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>GERD diet:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:GERD diet:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Year:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Year:nk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-transparency' value='119' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='1389' />
+                <format attr='maxwidth' value='1389' />
+                <format attr='minheight' value='100' />
+                <format attr='maxheight' value='100' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='9' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Anti-inflammatory diet:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Year:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>GERD diet:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:GERD diet:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Year:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Year:nk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-transparency' value='119' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='1389' />
+                <format attr='maxwidth' value='1389' />
+                <format attr='minheight' value='100' />
+                <format attr='maxheight' value='100' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='10' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Fatty-liver diet:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Year:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>GERD diet:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:GERD diet:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Year:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Year:nk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-transparency' value='119' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='1389' />
+                <format attr='maxwidth' value='1389' />
+                <format attr='minheight' value='100' />
+                <format attr='maxheight' value='100' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='11' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:DASH diet:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Year:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>GERD diet:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:GERD diet:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Year:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Year:nk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-transparency' value='119' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='1389' />
+                <format attr='maxwidth' value='1389' />
+                <format attr='minheight' value='100' />
+                <format attr='maxheight' value='100' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='12' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Alkaline diet:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Year:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>GERD diet:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:GERD diet:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Year:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Year:nk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-transparency' value='119' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='1389' />
+                <format attr='maxwidth' value='1389' />
+                <format attr='minheight' value='100' />
+                <format attr='maxheight' value='100' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='13' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:IBS diet:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Year:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>GERD diet:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:GERD diet:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Year:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Year:nk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-transparency' value='119' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='1389' />
+                <format attr='maxwidth' value='1389' />
+                <format attr='minheight' value='100' />
+                <format attr='maxheight' value='100' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='14' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:The Sirtfood diet:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Year:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>GERD diet:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:GERD diet:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Year:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Year:nk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-transparency' value='139' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='1389' />
+                <format attr='maxwidth' value='1389' />
+                <format attr='minheight' value='100' />
+                <format attr='maxheight' value='100' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:The Sirtfood diet:qk] + ([federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:The Candida diet:qk] + ([federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Keto diet:qk] + ([federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Plant-based diet:qk] + ([federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Anti-inflammatory diet:qk] + ([federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Fatty-liver diet:qk] + ([federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:DASH diet:qk] + ([federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Alkaline diet:qk] + [federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:IBS diet:qk]))))))))</rows>
+        <cols>([federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[twk:Week:qk] + [federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[twk:Week:qk])</cols>
+      </table>
+      <simple-id uuid='{EF5B023D-380A-4A7D-A34F-76D9398CBADC}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Google-Trends-Diets-Canada-interest-over-time-2020' name='federated.0ltdy1c0fjm1vf1bopefb1ou5zee' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ltdy1c0fjm1vf1bopefb1ou5zee'>
+            <column datatype='string' name='[Diets]' role='dimension' type='nominal' />
+            <column-instance column='[Diets]' derivation='None' name='[none:Diets:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Diets:nk]'>
+            <groupfilter function='member' level='[none:Diets:nk]' member='&quot;The Sirtfood diet&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Diets:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='174' />
+            <format attr='height' value='92' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Diets:nk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontalignment='0' fontsize='14'>The Sirtfood diet</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-orientation' value='0' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{3C87156E-A374-4034-A345-4F9F5B6CFA9A}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='968' maxwidth='1024' minheight='968' minwidth='1024' preset-index='2' sizing-mode='fixed' />
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98348' id='7' param='horz' w='85059' x='14160' y='826'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='98348' id='5' w='74805' x='14160' y='826'>
+              <zone h='98348' id='3' name='Interest-over-time' show-title='false' w='74805' x='14160' y='826'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' fixed-size='105' h='98348' id='6' is-fixed='true' param='vert' w='10254' x='88965' y='826'>
+              <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='5062' id='9' name='Interest-over-time' pane-specification-id='14' param='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Year:nk]' w='10254' x='88965' y='826'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='3719' id='17' param='vert' w='13379' x='781' y='826' />
+          <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='10124' id='18' w='13379' x='781' y='4545'>
+            <formatted-text>
+              <run fontalignment='1'>The Sirt</run>
+              <run>Æ&#10;</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='84505' id='19' param='vert' w='13379' x='781' y='14669'>
+            <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' fixed-size='92' forceUpdate='true' h='10330' id='20' is-fixed='true' w='13379' x='781' y='14669'>
+              <formatted-text>
+                <run fontalignment='1'>The Candida Diet</run>
+              </formatted-text>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' fixed-size='84' forceUpdate='true' h='9504' id='21' is-fixed='true' w='13379' x='781' y='24999'>
+              <formatted-text>
+                <run fontalignment='1'>Keto diet</run>
+              </formatted-text>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='23' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98348' id='22' param='vert' w='98438' x='781' y='826'>
+                <zone fixed-size='280' h='98348' id='3' is-fixed='true' name='Interest-over-time' show-title='false' w='74805' x='14160' y='826'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='5062' id='9' name='Interest-over-time' pane-specification-id='14' param='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Year:nk]' w='10254' x='88965' y='826'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='10124' id='18' w='13379' x='781' y='4545'>
+                  <formatted-text>
+                    <run fontalignment='1'>The Sirt</run>
+                    <run>Æ&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' fixed-size='92' forceUpdate='true' h='10330' id='20' w='13379' x='781' y='14669'>
+                  <formatted-text>
+                    <run fontalignment='1'>The Candida Diet</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' fixed-size='84' forceUpdate='true' h='9504' id='21' w='13379' x='781' y='24999'>
+                  <formatted-text>
+                    <run fontalignment='1'>Keto diet</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{EC42A78E-2167-4BCA-964C-BA665C2699DA}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.14583' source-height='78'>
+    <window class='worksheet' maximized='true' name='Interest-over-time'>
+      <cards>
+        <edge name='left'>
+          <strip size='211'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='26'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='155'>
+            <card param='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Year:nk]' type='filter' />
+            <card pane-specification-id='14' param='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Year:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[:Measure Names]</field>
+            <field>[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Calculation_1268607783603642368:nk]</field>
+            <field>[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Calculation_1268607783603699713:nk]</field>
+            <field>[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Calculation_1268607783603773442:qk]</field>
+            <field>[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Calculation_194780747244253185:nk]</field>
+            <field>[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Calculation_194780747244290051:qk]</field>
+            <field>[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Calculation_194780747245723653:qk]</field>
+            <field>[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Calculation_194780747245748230:nk]</field>
+            <field>[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Calculation_194780747245781000:nk]</field>
+            <field>[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Year:nk]</field>
+            <field>[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Year:qk]</field>
+            <field>[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[twk:Week:qk]</field>
+            <field>[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[yr:Week:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{901555F9-E1DD-4067-87AD-35705F57A5FC}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Interest-over-time'>
+          <zoom type='entire-view' />
+          <selection-collection>
+            <tuple-selection>
+              <tuple-reference>
+                <tuple-descriptor>
+                  <pane-descriptor x-index='1'>
+                    <x-fields x-index='1'>
+                      <field>[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[twk:Week:qk]</field>
+                    </x-fields>
+                    <y-fields x-index='1'>
+                      <field>[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Keto diet:qk]</field>
+                    </y-fields>
+                  </pane-descriptor>
+                  <columns>
+                    <field>[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Keto diet:qk]</field>
+                    <field>[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Year:nk]</field>
+                    <field>[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[twk:Week:qk]</field>
+                  </columns>
+                </tuple-descriptor>
+                <tuple>
+                  <value>70</value>
+                  <value>&quot;2020&quot;</value>
+                  <value>#2020-02-23 00:00:00#</value>
+                </tuple>
+              </tuple-reference>
+            </tuple-selection>
+          </selection-collection>
+          <highlight field='[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Year:nk]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{38D142B3-8C73-4743-8966-2BADECFCC0B6}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='159'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[:Measure Names]</field>
+            <field>[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:Diets:nk]</field>
+            <field>[federated.0ltdy1c0fjm1vf1bopefb1ou5zee].[none:The Sirtfood diet:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{BEC0AAC2-8348-41DE-B327-94051E09E998}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+      AElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Interest-over-time' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='96' name='Sheet 2' width='178'>
+      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
+      RK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
